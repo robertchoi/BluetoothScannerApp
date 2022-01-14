@@ -89,8 +89,8 @@ const BluetoothScanner = () => {
               return (false);
             }
             // explicitly ask for user's permission
-            const permission = await requestPermission();
-            if (permission) {
+            //const permission = await requestPermission();
+            if (1) {
               manager.startDeviceScan(null, null, async (error, device) => {
                   // error handling
                   if (error) {
